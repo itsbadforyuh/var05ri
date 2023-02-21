@@ -178,17 +178,17 @@ public class JokerManager : MonoBehaviour
             if(pcs > players)
             {
                 PCText.text = "Win!";
-                PlayerText.text = "Defeat!";
+                PlayerText.text = "lose!";
             }
             if (pcs < players)
             {
-                PCText.text = "defeat!";
+                PCText.text = "lose!";
                 PlayerText.text = "win!";
             }
             if (pcs == players)
             {
-                PCText.text = "tie";
-                PlayerText.text = "tie";
+                PCText.text = "tie dealrer wins";
+                PlayerText.text = "tie dealer wins";
             }
         }
 
