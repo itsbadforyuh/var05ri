@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/blackjack/blackjack.unity
+    guid: 46c1c997599943845b4c69a64a25b429
   m_configObjects: {}
