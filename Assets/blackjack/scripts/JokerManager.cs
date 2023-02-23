@@ -46,15 +46,7 @@ public class JokerManager : MonoBehaviour
     }
     public void PlayerDeal()
     {
-        //int index = Random.Range(0, decks.Count);
-        //Player.GetChild(0).gameObject.SetActive(true);
-        //Player.GetChild(0).Find("cardinfo").GetComponent<Image>().sprite = decks[index];
-        //decks.RemoveAt(index);
-        //int index1 = Random.Range(0, decks.Count);
-        //Player.GetChild(1).gameObject.SetActive(true);
-        //Player.GetChild(1).Find("cardinfo").GetComponent<Image>().sprite = decks[index1];
-        //Player.GetChild(1).Find("cardinfo").gameObject.SetActive(true);
-        //decks.RemoveAt(index1);
+       
 
         if (isStand) return;
 
@@ -66,6 +58,7 @@ public class JokerManager : MonoBehaviour
 
     }
 
+    // generate deck
     void CreatCard(Transform c)
     {
         int index = Random.Range(0, decks.Count);
