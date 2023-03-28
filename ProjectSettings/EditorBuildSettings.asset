@@ -8,4 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/blackjack/blackjack.unity
     guid: 46c1c997599943845b4c69a64a25b429
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 20f834d5bee957c42a5a737d2a8792f6, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 52429fbc25fd1fa448a2d92a14dd41d3, type: 2}
