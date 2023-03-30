@@ -10,13 +10,14 @@ public class VRRig : MonoBehaviour
     {
         if (XRController.leftHand != null)
         {
-        
+            Debug.Log("here");
             Vector3 leftPosition = XRController.leftHand.devicePosition.ReadValue();
             Quaternion leftRotation = XRController.leftHand.deviceRotation.ReadValue();
 
             left.localPosition = leftPosition;
             left.localRotation = leftRotation;
         }
+        else { Debug.Log("nothing"); }
 
         if (XRController.rightHand != null)
         {

@@ -22,27 +22,33 @@ public class ClawGrabManager : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-       
-        if(transform.name == "Forward_b")
+
+        Debug.Log("clicked");
+
+        if (transform.name == "Forward_b")
         {
+            Debug.Log("f");
             //if (clowGrab.position.z >= 10) return;
             clawGrab.Translate(new Vector3(0, 0, 0.1f));
         }
         if (transform.name == "Backward_b")
         {
-          
+            Debug.Log("f");
             clawGrab.Translate(new Vector3(0, 0, -0.1f));
         }
         if (transform.name == "Up_b")
         {
+            Debug.Log("f");
             clawGrab.Translate(new Vector3(0, 0.1f, 0));
         }
         if (transform.name == "Right_b")
         {
+            Debug.Log("f");
             clawGrab.Translate(new Vector3(0.1f, 0, 0));
         }
         if (transform.name == "Left_b")
         {
+            Debug.Log("f");
             clawGrab.Translate(new Vector3(-0.1f, 0, 0));
         
       
