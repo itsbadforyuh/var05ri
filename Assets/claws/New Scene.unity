@@ -1028,7 +1028,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 545927703}
   m_LocalRotation: {x: -0.16748595, y: -0, z: -0, w: 0.9858745}
-  m_LocalPosition: {x: -1.278, y: 0.856, z: -0.918}
+  m_LocalPosition: {x: -1.278, y: 0.806, z: -0.986}
   m_LocalScale: {x: 0.15154989, y: 0.15154989, z: 0.15154989}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3997,6 +3997,7 @@ GameObject:
   - component: {fileID: 1669792336}
   - component: {fileID: 1669792337}
   - component: {fileID: 1669792338}
+  - component: {fileID: 1669792339}
   m_Layer: 0
   m_Name: claw_machine
   m_TagString: Untagged
@@ -4108,6 +4109,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.008377171, y: 0.0010868248, z: 0.0054668747}
   m_Center: {x: -0.005123637, y: -0.009645986, z: 0.0047122226}
+--- !u!114 &1669792339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1669792332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8fb36fe3ec83f743844607a31284703, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transparent: {fileID: 2100000, guid: 0b820b16118a0d848b8a80c184c74b23, type: 2}
 --- !u!1 &1721546147
 GameObject:
   m_ObjectHideFlags: 0
