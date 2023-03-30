@@ -30,7 +30,7 @@ public class ClawGrabManager : MonoBehaviour
         }
         if (transform.name == "Backward_b")
         {
-            //if (clowGrab.position.z >= 10) return;
+          
             clawGrab.Translate(new Vector3(0, 0, -0.1f));
         }
         if (transform.name == "Up_b")
