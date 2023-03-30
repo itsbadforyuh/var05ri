@@ -29,27 +29,27 @@ public class ClawGrabManager : MonoBehaviour
         {
             Debug.Log("f");
             //if (clowGrab.position.z >= 10) return;
-            clawGrab.Translate(new Vector3(0, 0, 0.1f));
+            clawGrab.Translate(new Vector3(0, 0, 0.05f));
         }
         if (transform.name == "Backward_b")
         {
             Debug.Log("f");
-            clawGrab.Translate(new Vector3(0, 0, -0.1f));
+            clawGrab.Translate(new Vector3(0, 0, -0.05f));
         }
         if (transform.name == "Up_b")
         {
             Debug.Log("f");
-            clawGrab.Translate(new Vector3(0, 0.1f, 0));
+            clawGrab.Translate(new Vector3(0, 0.05f, 0));
         }
         if (transform.name == "Right_b")
         {
             Debug.Log("f");
-            clawGrab.Translate(new Vector3(0.1f, 0, 0));
+            clawGrab.Translate(new Vector3(0.05f, 0, 0));
         }
         if (transform.name == "Left_b")
         {
             Debug.Log("f");
-            clawGrab.Translate(new Vector3(-0.1f, 0, 0));
+            clawGrab.Translate(new Vector3(-0.05f, 0, 0));
         
       
         }
@@ -57,7 +57,7 @@ public class ClawGrabManager : MonoBehaviour
         if (transform.name == "Down")
         {
             Debug.Log(transform.name);
-            clawGrab.Translate(new Vector3(0, -0.1f, 0));
+            clawGrab.Translate(new Vector3(0, -0.05f, 0));
         }
 
     }
