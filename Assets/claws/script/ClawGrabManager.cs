@@ -82,7 +82,7 @@ public class ClawGrabManager : MonoBehaviour
 
     IEnumerator ControlBall(Transform ball)
     {
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(7f);
         ball.transform.parent = null;
         ball.GetComponent<Rigidbody>().isKinematic = false;
         yield return new WaitForSeconds(5f);
